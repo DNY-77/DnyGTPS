@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DnyGTPS</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    /* Efek RGB pada tulisan */
+    .rgb-text {
+      background: linear-gradient(90deg, red, orange, yellow, green, cyan, blue, violet);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      animation: rgb-move 3s linear infinite;
+      background-size: 400% 400%;
+    }
+    @keyframes rgb-move {
+      0% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+      100% { background-position: 0% 50%; }
+    }
+  </style>
+</head>
+<body class="bg-gray-900 text-white font-sans">
+
+  <!-- Judul -->
+  <header class="text-center py-10">
+    <h1 class="text-5xl font-bold rgb-text">DnyGTPS</h1>
+    <p class="mt-4 text-lg text-gray-300">
+      Selamat datang di server GTPS saya! Nikmati pengalaman seru bermain dengan stabilitas tinggi dan komunitas aktif.
+    </p>
+  </header>
+
+  <!-- Status Server -->
+  <section class="max-w-3xl mx-auto bg-gray-800 rounded-2xl p-6 shadow-lg text-center">
+    <h2 class="text-2xl font-semibold rgb-text">Status Server: ONLINE</h2>
+    <p class="mt-2 text-gray-400">Server berjalan normal dan siap dimainkan 🚀</p>
+  </section>
+
+  <!-- Link Download -->
+  <section class="max-w-3xl mx-auto mt-10 space-y-6">
+    <!-- VHOST -->
+    <div class="bg-gray-800 p-6 rounded-2xl shadow-lg">
+      <h3 class="text-xl font-bold rgb-text mb-3">Download VHOST</h3>
+      <a href="https://growsoft.cc/ios.txt" target="_blank" 
+         class="block bg-blue-600 hover:bg-blue-700 text-white py-2 px-4 rounded-xl transition">
+        Download VHOST (iOS)
+      </a>
+    </div>
+
+    <!-- COPY PTUNNEL -->
+    <div class="bg-gray-800 p-6 rounded-2xl shadow-lg">
+      <h3 class="text-xl font-bold rgb-text mb-3">COPY PTUNNEL</h3>
+      <a href="HTTPS://GROWSOFT.CC/ANDROID.TXT" target="_blank" 
+         class="block bg-green-600 hover:bg-green-700 text-white py-2 px-4 rounded-xl transition">
+        PTUNNEL (ANDROID)
+      </a>
+    </div>
+
+    <!-- COPY WINDOWS -->
+    <div class="bg-gray-800 p-6 rounded-2xl shadow-lg">
+      <h3 class="text-xl font-bold rgb-text mb-3">COPY WINDOWS</h3>
+      <pre class="bg-black text-green-400 p-4 rounded-xl text-left overflow-x-auto">
+91.134.85.13 GROWTOPIA1.COM
+91.134.85.13 GROWTOPIA2.COM
+91.134.85.13 WWW.GROWTOPIA1.COM
+91.134.85.13 WWW.GROWTOPIA2.COM
+      </pre>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="text-center py-6 text-gray-500 mt-10">
+    © 2025 DnyGTPS. All Rights Reserved.
+  </footer>
+
+</body>
+</html>
